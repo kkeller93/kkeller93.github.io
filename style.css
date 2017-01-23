@@ -1,0 +1,44 @@
+body {
+  background-color: #4d4d4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100vh;
+  padding:0;
+  margin:0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 54px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+nav {
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav a {
+  color: black;
+  font-size: 20px;
+}
+
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
